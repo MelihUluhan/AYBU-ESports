@@ -1,0 +1,89 @@
+﻿body {
+    font-family: Tahoma;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.logo img {
+    height: 100px;
+}
+.esport img {
+    height: 120px;
+    width: 120px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Bradley Hand ITC';
+    font-size: large;
+    
+}
+    .title:hover {
+        background-color: gray;
+    }
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    font-family: 'Bradley Hand ITC';
+}
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        margin: 0 10px;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+        nav a:hover {
+            background-color: gray;
+        }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    font-size: small;
+}
+div {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+/*The part where divs with events and news are organized*/
+.events, .news {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Bradley Hand ITC';
+    font-weight: bold;
+    font-size:25px;
+}
+
+

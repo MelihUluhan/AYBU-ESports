@@ -1,0 +1,97 @@
+﻿body {
+    font-family: Tahoma;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Bradley Hand ITC';
+    font-size: large;
+}
+    .title:hover {
+        background-color: gray;
+    }
+.esport img {
+    height: 120px;
+    width: 120px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    font-family: 'Bradley Hand ITC';
+}
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        margin: 0 10px;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+        nav a:hover {
+            background-color: gray;
+        }
+
+div {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    font-size: small;
+}
+
+p{
+    text-align:center;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+}
+
+/*The size of the photo and the spaces in the text etc. edited part*/
+.image {
+    margin-right: 20px;
+}
+
+    .image img {
+        height: 250px;
+        width: auto;
+    }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

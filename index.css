@@ -1,0 +1,110 @@
+﻿body{
+    font-family:Tahoma;
+}
+
+/*The part where I edit the texts and pictures in the Header class*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.logo img {
+    height: 120px;
+    width:120px;
+}
+.esport img {
+    height: 120px;
+    width: 120px;
+}
+
+/*The part where the title is edited*/
+.title {
+    text-align: center;
+    font-family: 'Bradley Hand ITC';
+    font-size:large;
+}
+    .title:hover {
+        background-color: gray;
+    }
+
+/*The part where the navigation bar is arranged. The space between the options, 
+    the color change when they are on them, etc. section of properties*/
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    font-family: 'Bradley Hand ITC';
+}
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        margin: 0 10px;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size:18px;
+    }
+
+        nav a:hover {
+            background-color: gray;
+        }
+
+/*The part where the space between each div is edited*/
+div {
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid #ddd;
+}
+
+#p{
+    font-size:18px;
+}
+/*The part there the footer are arranged*/
+footer {
+    position: relative;
+    bottom: 0;
+    left: 47%;
+    font-size: small;
+}
+
+/*The part where social media icons are arranged*/
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+    .social-media-icons img {
+        width: 30px;
+        height: 30px;
+        margin: 0 20px;
+    }
+
+/*The part where E-Sports pictures are arranged*/
+.images img {
+    width: 300px;
+    height: 200px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px ;
+}
